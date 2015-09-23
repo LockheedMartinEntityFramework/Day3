@@ -1,0 +1,8 @@
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\EDMX Database First\bin\Debug\EDMX Database First.dll
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\EDMX Database First\bin\Debug\EDMX Database First.pdb
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\EDMX Database First\obj\Debug\EDMX Database First.dll
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\EDMX Database First\obj\Debug\EDMX Database First.pdb
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\EDMX Database First\bin\Debug\EDMX Database First.dll.config
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\EDMX Database First\bin\Debug\EntityFramework.dll
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\EDMX Database First\bin\Debug\EntityFramework.xml
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\EDMX Database First\obj\Debug\EDMX Database First.csprojResolveAssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\AdventureWorksClient\bin\Debug\AdventureWorksClient.exe.config
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\AdventureWorksClient\obj\Debug\AdventureWorksClient.csprojResolveAssemblyReference.cache
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\AdventureWorksClient\obj\Debug\AdventureWorksClient.AW_LINQ.resources
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\AdventureWorksClient\obj\Debug\AdventureWorksClient.Properties.Resources.resources
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\AdventureWorksClient\obj\Debug\AdventureWorksClient.csproj.GenerateResource.Cache
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\AdventureWorksClient\bin\Debug\AdventureWorksClient.exe
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\AdventureWorksClient\bin\Debug\AdventureWorksClient.pdb
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\AdventureWorksClient\bin\Debug\EntityFramework.dll
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\AdventureWorksClient\bin\Debug\EntityFramework.xml
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\AdventureWorksClient\obj\Debug\AdventureWorksClient.exe
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\AdventureWorksClient\obj\Debug\AdventureWorksClient.pdb
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\AdventureWorksClient\bin\Debug\HibernatingRhinos.Profiler.Appender.dll

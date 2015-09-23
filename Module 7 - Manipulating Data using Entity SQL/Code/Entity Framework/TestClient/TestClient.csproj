@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E430B8A0-8A64-4A22-A317-2623EB262393}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestClient</RootNamespace>
+    <AssemblyName>TestClient</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="HibernatingRhinos.Profiler.Appender">
+      <HintPath>..\..\..\..\..\..\Downloads\EntityFramework.Profiler-v3.0-Build-3084\HibernatingRhinos.Profiler.Appender.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EFMasterDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EFMasterDetails.Designer.cs">
+      <DependentUpon>EFMasterDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EFObjectDataSource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EFObjectDataSource.Designer.cs">
+      <DependentUpon>EFObjectDataSource.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EFTestClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EFTestClient.Designer.cs">
+      <DependentUpon>EFTestClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EF_DML.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EF_DML.Designer.cs">
+      <DependentUpon>EF_DML.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EFMasterDetails.resx">
+      <DependentUpon>EFMasterDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EFObjectDataSource.resx">
+      <DependentUpon>EFObjectDataSource.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EFTestClient.resx">
+      <DependentUpon>EFTestClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EF_DML.resx">
+      <DependentUpon>EF_DML.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\EDMX_Database_First.Customer.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Code Database First\Code Database First.csproj">
+      <Project>{516235e4-8b4e-4084-a3d7-ff90a94c33e1}</Project>
+      <Name>Code Database First</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Code Model First\Code Model First.csproj">
+      <Project>{f335323b-17b2-42f6-a9b0-1e4872caf02f}</Project>
+      <Name>Code Model First</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EDMX Database First\EDMX Database First.csproj">
+      <Project>{de3a0eb1-64fd-4377-b32b-892ea807549c}</Project>
+      <Name>EDMX Database First</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EDMX Model First\EDMX Model First.csproj">
+      <Project>{06dda7e6-4d49-46e2-aac0-ba585b2574c0}</Project>
+      <Name>EDMX Model First</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

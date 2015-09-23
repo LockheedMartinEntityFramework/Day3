@@ -1,0 +1,23 @@
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\TestClient.exe.config
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\obj\Debug\TestClient.csprojResolveAssemblyReference.cache
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\obj\Debug\TestClient.EFTestClient.resources
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\obj\Debug\TestClient.Properties.Resources.resources
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\obj\Debug\TestClient.csproj.GenerateResource.Cache
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\TestClient.exe
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\TestClient.pdb
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\EDMX Model First.dll
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\EntityFramework.dll
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\EDMX Model First.pdb
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\EntityFramework.xml
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\obj\Debug\TestClient.exe
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\obj\Debug\TestClient.pdb
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\Code Model First.dll
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\Code Model First.pdb
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\Code Database First.dll
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\EDMX Database First.dll
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\Code Database First.pdb
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\EDMX Database First.pdb
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\obj\Debug\TestClient.EFObjectDataSource.resources
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\obj\Debug\TestClient.EF_DML.resources
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\obj\Debug\TestClient.EFMasterDetails.resources
+C:\Users\Geek\Documents\Entity Framework 5\Instructor Files\Projects\Entity Framework\TestClient\bin\Debug\HibernatingRhinos.Profiler.Appender.dll
